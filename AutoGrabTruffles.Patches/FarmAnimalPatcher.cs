@@ -22,7 +22,7 @@ public class FarmAnimalPatcher
 
 	public void Apply(Harmony harmony)
 	{
-		harmony.Patch(AccessTools.Method(typeof(FarmAnimal), "findTruffle") ?? throw new InvalidOperationException("Can't find FarmAnimal.findTruffle method."), null, new HarmonyMethod(typeof(FarmAnimalPatcher), "FindTruffle_Postfix"));
+		harmony.Patch(AccessTools.Method(typeof(FarmAnimal), "DigUpProduce") ?? throw new InvalidOperationException("Can't find FarmAnimal.findTruffle method."), null, new HarmonyMethod(typeof(FarmAnimalPatcher), "FindTruffle_Postfix"));
 	}
 
 	private static void FindTruffle_Postfix(FarmAnimal __instance)

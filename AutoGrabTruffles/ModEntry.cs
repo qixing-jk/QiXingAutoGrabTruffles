@@ -128,7 +128,7 @@ public class ModEntry : Mod
 				item.Deconstruct(out var _, out var value);
 				Object grabber = value;
 				leftoverTruffle = (grabber.heldObject.Value as Chest).addItem(leftoverTruffle);
-				if ((grabber.heldObject.Value as Chest).items.Any((Item i) => i != null))
+				if ((grabber.heldObject.Value as Chest).Items.Any((Item i) => i != null))
 				{
 					grabber.showNextIndex.Value = true;
 				}

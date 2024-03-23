@@ -2,7 +2,8 @@
   <PropertyGroup>
     <AssemblyName>AutoGrabTruffles</AssemblyName>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+	<EnableHarmony>true</EnableHarmony>
   </PropertyGroup>
   <PropertyGroup>
     <LangVersion>10.0</LangVersion>
@@ -13,8 +14,10 @@
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="StardewModdingAPI" />
-    <Reference Include="0Harmony">
+    <Reference Include="StardewModdingAPI">
+	  <HintPath>$(GamePath)\StardewModdingAPI.dll</HintPath>
+	</Reference>
+	<Reference Include="0Harmony">
       <HintPath>$(GamePath)\smapi-internal\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="MonoGame.Framework">

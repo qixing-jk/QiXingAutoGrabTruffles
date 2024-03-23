@@ -1,0 +1,9 @@
+{
+  "Name": "AutoGrabTruffles",
+  "Author": "QiXing",
+  "Version": "1.0.0",
+  "Description": "Allow barn auto-grabbers to collect truffles.",
+  "UniqueID": "qixing.AutoGrabTruffles",
+  "EntryDll": "AutoGrabTruffles.dll",
+  "MinimumApiVersion": "4.0.0"
+}
