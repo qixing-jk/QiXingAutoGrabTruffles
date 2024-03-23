@@ -5,5 +5,6 @@
   "Description": "Allow barn auto-grabbers to collect truffles.",
   "UniqueID": "qixing.AutoGrabTruffles",
   "EntryDll": "AutoGrabTruffles.dll",
-  "MinimumApiVersion": "4.0.0"
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:20874", "GitHub:qixing-jk/QiXingAutoGrabTruffles" ]
 }

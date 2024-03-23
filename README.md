@@ -1,4 +1,8 @@
 ﻿# QiXingAutoGrabTruffles
+> This mod is a fix for [Auto-Grab Truffles](https://www.nexusmods.com/stardewvalley/mods/14162)﻿ (updated to .NET 6.0, adapted to Stardew Valley 1.6 and SMAPI 4.0)
+> 此Mod为 [Auto-Grab Truffles 自动抓取松露](https://www.nexusmods.com/stardewvalley/mods/14162) 的 修复版（更新至.NET 6.0，适配 星露谷1.6 和 SMAPI 4.0）
+> ﻿﻿[Telegram group](https://t.me/qixing_chat) (also a way to contact support)	﻿[Telegram群组](https://t.me/qixing_chat) （也算是联系支持的一种方式）
+
 Auto-Grab Truffles will extend vanilla barn auto-grabber functionality to also work on truffles. And only truffles.
 自动抓取松露将扩展原版谷仓自动抓取器的功能，使其也适用于松露。而且只有松露。
 
